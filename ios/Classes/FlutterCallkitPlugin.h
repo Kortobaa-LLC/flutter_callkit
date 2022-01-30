@@ -31,6 +31,10 @@ API_AVAILABLE(ios(10.0))
                 providerConfiguration:(CXProviderConfiguration *)providerConfiguration
              pushProcessingCompletion:(nullable dispatch_block_t)pushProcessingCompletion;
 
+/// Added by Enigma
+- (void)endCallFromRemote:(NSUUID *)UUID;
+
+
 - (instancetype)init NS_UNAVAILABLE;
 
 @end

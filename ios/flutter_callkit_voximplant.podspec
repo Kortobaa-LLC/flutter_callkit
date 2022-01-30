@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/voximplant/flutter_callkit'
   s.license          = { :type => 'MIT',
                          :file => '../LICENSE' }
-  s.author           = { 'Zingaya Inc.' => 'mobiledev@zingaya.com'}
+  s.author           = { 'Zingaya Inc.' => 'mobiledev@zingaya.com' , 'Kortobaa LLC' => 'salamaEnigma'}
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

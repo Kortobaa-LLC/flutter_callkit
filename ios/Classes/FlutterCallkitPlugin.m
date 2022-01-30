@@ -310,6 +310,12 @@
     }];
 }
 
+/// Added by Enigma
+- (void)endCallFromRemote:(NSUUID *)UUID
+{
+    [self.provider reportCallWithUUID:UUID endedAtDate:[NSDate date] reason:0];
+}
+
 #pragma mark - FlutterStreamHandler -
 - (FlutterError * _Nullable)onCancelWithArguments:(id _Nullable)arguments {
     self.eventSink = nil;
